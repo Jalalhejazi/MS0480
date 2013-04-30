@@ -4,7 +4,6 @@ function getCityFromZipCode(sZipcodeSelector, sTargetSelector) {
   var $sZipcodeSelector = jQuery(sZipcodeSelector);
   $sTargetSelector.html("");
 
-  //var test = "test";
 
   if ($sTargetSelector.length > 0 && $sZipcodeSelector.length > 0) {
 
